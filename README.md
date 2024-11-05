@@ -14,3 +14,7 @@ En este ejercicio debíamos preguntar al usuario 3 precios teniendo en cuenta un
 
 En el código he intentado explicar también lo que he ido haciendo paso a paso.
 
+
+Ayudas Externas:
+Principalmente he necesitado ayuda en el ejercicio 3 ya que no había hecho bien la suma de todas las notas ni la había incluido en el bucle for y he preguntado a COPILOT por qué no se me calculaba bien la media final y era por eso.
+
