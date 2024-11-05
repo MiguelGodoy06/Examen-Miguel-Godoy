@@ -16,16 +16,5 @@ int main() {
     float promedio = suma / NumEjs;  //Una vez tengo la suma de todos los ejercicios, lo divido por el propio número de ejercicios para poder sacar el promedio.
     cout << "\nLa nota media de los " << NumEjs << " ejercicios es de: " << promedio << endl;
 
-
-
-
-
-
-
-
-
-
-
-
     return 0;
 }
