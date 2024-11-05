@@ -4,16 +4,13 @@ using namespace std;
 
 int main() {
 int dia;
-    cout<<"Ingresa un día de la semana de 1 a 7: ";
-    cin>>dia;
 
-
-    while (true) {
+    while (true) {  //En esta caso empleo un bucle while infinito para que hasta que no introduzca un número válido no deje de preguntar.
         cout << "Ingresa un número del 1 al 7: ";
         cin >> dia;
 
         if (dia >= 1 && dia <= 7) {
-            switch (dia) {
+            switch (dia) {  //Empleo el uso de un switch siempre que sea un día posible de la semana para cada caso.
                 case 1:
                     cout << "Lunes" << endl;
                 break;
@@ -38,7 +35,7 @@ int dia;
             }
             break; // Salir del bucle si el número es válido
         } else {
-            cout << "Número inválido. Por favor, ingresa un número del 1 al 7." << endl;
+            cout << "Número inválido. Por favor, ingresa un número del 1 al 7." << endl;    //Si el número no está entre 1 y 7, dice que es incorrecto que vuelva a introducirlo y se repite el bucle.
         }
     }
 
